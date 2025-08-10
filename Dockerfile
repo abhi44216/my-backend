@@ -1,5 +1,5 @@
 # Stage 1: Build with Maven and Java 17
-FROM maven:3.8.6-openjdk-17 AS build
+FROM maven:3.8.6-openjdk-17-slim AS build
 
 WORKDIR /app
 
